@@ -39,18 +39,18 @@ bot.on('login',function(){
 	   task(i); 
 	} 
 	console.log("Sukses Login")
-	bot.chat("Halo semua");
+	bot.chat("Halo semua,aku Bot");
 });
   
 function task(i) { 
 	
   setTimeout(function() { 
     if(first == true){
-	bot.chat("Diperbarui oleh vanevgt")
+	bot.chat("Diperbarui oleh Andi")
 	first = false;
 	}
 	else{
-		bot.chat("Diperbarui oleh vanevgt")
+		bot.chat("Diperbarui oleh Andi")
 		first = true;
 	}
   }, 3600000 * i); 
